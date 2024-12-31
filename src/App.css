@@ -1,0 +1,35 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main {
+  flex-grow: 1; /* Ensures main content takes available space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px; /* Maintaining existing padding */
+}
+footer {
+  text-align: center;
+  padding: 1em 0; /* Adding padding for footer */
+  background-color: #f8f8f8; /* Optionally, add background color */
+}
