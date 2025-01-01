@@ -31,7 +31,7 @@ const Home = () => {
         style={{ gap: "2rem", marginTop: "2rem" }}
         className="flex flex-row justify-center items-center flex-wrap"
       >
-        <Card style={{ width: "25rem", height: "auto" }} className="shadow-lg">
+        <Card style={{ width: "25rem", height: "15rem" }} className="shadow-lg">
           <CardBody className="flex flex-col items-center justify-center">
             <div
               style={{ marginBottom: "1rem", marginTop: "1rem" }}
@@ -46,16 +46,16 @@ const Home = () => {
               Calculate the enviromental impact of your travel choices.
             </Typography>
             <Button
-              style={{ backgroundColor: "#059669" }}
+              style={{ backgroundColor: "#059669"        
+              }}
               color="green"
-              ripple={true}
-              className="mt-4"
+              className="mt-4 hover:scale-110 transition-transform"
             >
               <Link to="/calc">Calculate</Link>
             </Button>
           </CardBody>
         </Card>
-        <Card style={{ width: "25rem", height: "auto" }} className="shadow-lg">
+        <Card style={{ width: "25rem", height: "15rem" }} className="shadow-lg">
           <CardBody className="flex flex-col items-center justify-center">
             <div
               style={{ marginBottom: "1rem", marginTop: "1rem" }}
@@ -70,16 +70,16 @@ const Home = () => {
               Find and book sustainable hotels and resorts.
             </Typography>
             <Button
-              style={{ backgroundColor: "#059669" }}
+              style={{ backgroundColor: "#059669",marginTop: "2.5rem"}}
               color="green"
               ripple={true}
-              className="mt-4"
+              className="hover:scale-110 transition-transform"
             >
               <Link to="/accom">Book Now !</Link>
             </Button>
           </CardBody>
         </Card>
-        <Card style={{ width: "25rem", height: "auto" }} className="shadow-lg">
+        <Card style={{ width: "25rem", height: "15rem" }} className="shadow-lg">
           <CardBody
             style={{ minHeight: "100%" }}
             className="flex flex-col items-center justify-center"
